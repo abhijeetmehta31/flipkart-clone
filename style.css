@@ -53,3 +53,21 @@ header .navbar{
     padding: 12px;
     background-color: transparent;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
+main .hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1230px;
+    height: 126px;
+    background-color: white;
+    margin-top: 10px;
+}
+section .banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
