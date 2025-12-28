@@ -2,21 +2,26 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: aliceblue;
+}
 header{
     display: flex;
-    justify-content: center;
 }
 header .navbar{
+    padding-left: 50px;
+    padding-right: 50px;
     width: 100%;
+    height: 60px;
     display: flex;
     align-items: center;
-    background-color: aliceblue;
-    justify-content: space-between;
-    gap: 160px;
+    background-color: white;
+    justify-content: space-around;
 }
 .icons{
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    font-size: 20px;
 }
 .login{
     display: flex;
@@ -32,18 +37,19 @@ header .navbar{
 }
 .searchbar{
     display: flex;
-    justify-content: center;
-    width: 400px;
+    width: 500px;
     height: 40px;
     border-radius: 5px;
-    background-color: white;
+    background-color: aliceblue;
 }
 .searchinput input{
     border: none;
     height: 40px;
     width: 350px;
+    font-size: 17px;
+    background-color: transparent;
 }
 .fa-magnifying-glass{
     padding: 12px;
-    background-color: white;
+    background-color: transparent;
 }
