@@ -56,6 +56,7 @@ header .navbar{
 main{
     display: flex;
     justify-content: center;
+
 }
 main .hero{
     display: flex;
@@ -66,8 +67,29 @@ main .hero{
     background-color: white;
     margin-top: 10px;
 }
-section .banner{
+section{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+section .back{
+    width: 1230px;
+    height: 230px;
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+footer .deals{
+    width: 900px;
+    height: 230px;
+    background-color: white;
+}
+footer .deals2{
+    width: 320px;
+    height: 230px;
+    background-color: white;
 }
