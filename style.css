@@ -4,6 +4,7 @@
 }
 body{
     background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
 }
 header{
     display: flex;
@@ -84,12 +85,36 @@ footer{
     gap: 10px;
 }
 footer .deals{
-    width: 900px;
-    height: 230px;
+    width: 1025px;
+    height: 334px;
     background-color: white;
 }
 footer .deals2{
-    width: 320px;
-    height: 230px;
+    width: 195px;
+    height: 334px;
     background-color: white;
 }
+footer .products{
+    display: flex;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px 0;
+}
+.products > div {
+    width: 160px;
+    text-align: center;
+}
+.products p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+.top {
+    font-size: 35px;
+}
+
+
+
