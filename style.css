@@ -23,6 +23,7 @@ header .navbar{
     display: flex;
     gap: 50px;
     font-size: 20px;
+    cursor: pointer;
 }
 .login{
     display: flex;
@@ -53,6 +54,7 @@ header .navbar{
 .fa-magnifying-glass{
     padding: 12px;
     background-color: transparent;
+    cursor: pointer;
 }
 main{
     display: flex;
@@ -67,11 +69,13 @@ main .hero{
     height: 126px;
     background-color: white;
     margin-top: 10px;
+    cursor: pointer;
 }
 section{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    cursor: pointer;
 }
 section .back{
     width: 1230px;
@@ -88,11 +92,13 @@ footer .deals{
     width: 1025px;
     height: 334px;
     background-color: white;
+    cursor: pointer;
 }
 footer .deals2{
     width: 195px;
     height: 334px;
     background-color: white;
+    cursor: pointer;
 }
 footer .products{
     display: flex;
