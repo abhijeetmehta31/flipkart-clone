@@ -1,14 +1,38 @@
-# Flipkart Clone
+# 🛒 Flipkart Clone (HTML & CSS)
 
-A responsive Flipkart UI clone built using HTML and CSS for practice.
+A responsive Flipkart homepage clone built using **HTML and CSS**.  
+This project focuses on layout structure, UI design, and mobile responsiveness.
 
-## Tech Stack
+---
+
+## 🚀 Features
+
+- Flipkart-inspired homepage UI
+- Clean and structured HTML
+- Flexbox-based layout
+- Responsive design for mobile devices
+- Separate CSS file for mobile responsiveness
+- Font Awesome icons
+- Google Fonts integration
+
+---
+
+## 🛠️ Tech Stack
+
 - HTML5
 - CSS3
+- Font Awesome
+- Google Fonts
 
-## Status
-- Navbar completed
-- More sections in progress
+---
 
-## Disclaimer
-This project is for educational purposes only.
+## 📱 Responsive Design
+
+- Desktop styles handled in `style.css`
+- Mobile responsiveness handled in `mobile.css`
+- Media queries used for screens up to 768px
+
+---
+
+## 📂 Project Structure
+
