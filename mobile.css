@@ -1,0 +1,118 @@
+
+
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  header .navbar {
+    padding: 0 15px;
+    height: 55px;
+    justify-content: space-between;
+  }
+  .searchbar {
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+
+  .icons {
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  .seller {
+    display: none;
+  }
+
+  .login p {
+    display: none;
+  }
+
+  main {
+    padding: 0 10px;
+  }
+
+  main .hero {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  main .hero > div {
+    width: 33.33%;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  main .hero img {
+    width: 60px;
+    height: auto;
+  }
+
+  main .hero p {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 0 10px;
+  }
+
+  section .back {
+    width: 100%;
+    height: auto;
+  }
+
+  section .back img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  footer .deals {
+    width: 100%;
+    height: auto;
+  }
+
+  footer .deals2 {
+    display: none;
+  }
+
+  .top {
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .products > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .products img {
+    width: 80px;
+  }
+
+  .products p {
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+  }
+
+}
